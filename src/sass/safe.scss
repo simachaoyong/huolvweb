@@ -1,0 +1,251 @@
+#safe{
+    background-color:#0ebb85;
+    position:relative;
+    .safebottom{
+        position:absolute;
+        bottom:-20px;
+        height:20px;
+        background-color:#0ebb85;
+        width:100%;
+    }
+    .banner{
+        background:url(http://localhost:3000/images/shouye/banner.jpg) no-repeat center top;
+        height:330px;
+    }
+    .safecontent{
+        .safetit{
+            padding:32px;
+            color: #fff;
+            font-size: 28px;
+            font-weight: bold;
+            line-height: 80px;
+            i{
+                display: inline-block;
+                margin-right: 20px;
+                width: 100px;
+                height: 80px;
+                background: url(http://localhost:3000/images/shouye/ticon.png) no-repeat;
+                font-size: 36px;
+                text-indent: 0.5em;
+            }
+        }
+        .dContent{
+            height:280px;
+            width:100%;
+            font-size:16px;
+            overflow:hidden;
+            position:relative;
+            .summary{
+                b,img{
+                    position:absolute;
+                    color: #f5ebab;
+                }
+                .fz38{
+                    font-size:38px;
+                    top:10px;
+                    right:200px;
+                    animation:fmove 4s linear infinite; 
+                }
+                .fz60{
+                    top: 100px;
+                    left: 800px;
+                    width: 180px;
+                    font-size: 60px;
+                    animation:fmove2 4s linear infinite;
+                }
+                .fz32{
+                    top: 220px;
+                    right: 22px;
+                    font-size: 32px;
+                    animation:fmove3 4s linear infinite;
+                }
+                .bkImg{
+                    position:absolute;
+                    top:50px;
+                    right:35px;
+                    height:186px;
+                    width:186px;
+                    background:url(http://localhost:3000/images/shouye/cbk.png) no-repeat;
+                }
+                img{
+                    top:-40px;
+                    left:900px;
+                    animation:quan 2s linear infinite;
+                }
+            }
+        }
+        .c1{
+            background-color: #ebd754;
+            color: #68480f;
+        }
+        .detail{
+            float:left;
+            width:64%;
+            margin:40px 0 40px 70px;
+            p{
+                width:70%;
+                height:100px;
+                b{
+                    display:block;
+                    font-size:18px;
+                }
+            }
+        }
+        .c2{
+            background-color:#007cac;
+            .summary{
+              b{
+                color: #3698be;
+              } 
+              .bkImg{
+                  background-position:0 -201px;
+                  left:100px;
+              }
+              .fz38{
+                top: 10px;
+                left: 20px;
+              }
+              .fz60{
+                top: 100px;
+                left: 300px;
+                right: auto;
+                font-size: 40px;
+              }
+              .fz32{
+                top: 200px;
+                left: 250px;
+                right: auto;
+              }
+              img{
+                  left:20px;
+              }
+            }
+            .detail{
+                float:right;
+                width:50%;
+                padding-right:125px;
+                p{
+                    width:100%;
+                    color: #acfbfe;
+                    font-size: 18px;
+                }
+            }
+        }
+        .c3{
+            background-color: #a42a29;
+            color: #fb9595;
+            .detail{
+                width:406px;
+                p{
+                    width:100%;
+                    b{
+                        line-height:30px;
+                    }
+                }
+            }
+            .summary{
+                b{
+                    color: #ba5d5c;
+                }
+                .fz38{
+                    font-size:48px;
+                }
+                .fz60{
+                    font-size:34px;
+                }
+                .bkImg{
+                    background-position:left -400px;
+                }
+            }
+        }
+        .c4{
+            background-color: #ffae21;
+            .summary{
+                b{
+                    color:#ffca6e;
+                }
+                .fz38{
+                    font-size:38px;
+                }
+                .fz60{
+                    font-size:40px;
+                }
+                .fz32{
+                    font-size:32px;
+                }
+                .bkImg{
+                    background-position:left -802px;
+                }
+            }
+            .detail{
+                margin: 90px 100px 90px 0;
+                width: 410px;
+                padding-right:0;
+                p{
+                    color: #fffdc1;
+                }
+            }
+        }
+        .c5{
+            background-color:#f53c3a;
+            .detail{
+                p{
+                    color: #feb2b1;
+                }
+            }
+            .summary{
+                b{
+                    color: #f76b69;
+                }
+               .fz38{
+                    font-size:26px;
+               } 
+               .fz60{
+                   font-size:40px;
+               }
+               .fz32{
+                   font-size:32px;
+               }
+               .bkImg{
+                   background-position:left -600px;
+               }
+            }
+        }
+    }
+}
+@keyframes quan{
+    to{transform:scale(1.5,1.5);opacity:0;}
+}
+@keyframes fmove{
+    25%{
+        transform:translate(-20px,30px);
+    }
+    50%{
+        transform: translate(20px,30px);
+    }
+    75%{
+        transform: translate(20px, -30px);
+    }
+}
+@keyframes fmove2{
+    25%{
+        transform:translate(40px,-50px);
+    }
+    50%{
+        transform: translate(-40px,-50px);
+    }
+    75%{
+        transform: translate(-40px, 50px);
+    }
+}
+@keyframes fmove3{
+    25%{
+        transform:translate(20px,-30px);
+    }
+    50%{
+        transform: translate(-20px,-30px);
+    }
+    75%{
+        transform: translate(-20px, 30px);
+    }
+}

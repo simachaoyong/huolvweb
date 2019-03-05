@@ -1,0 +1,707 @@
+.container{
+    .banner{
+      height:433px;
+      position:relative;
+      overflow:hidden;
+      .ant-carousel{
+        height:350px;
+        width: 1920px;
+        position: absolute;
+        left: 50%;
+        margin-left: -960px;
+        .slick-dots{
+          bottom:30px
+        }
+        .slick-dots li button{
+          height:15px;
+          width:15px;
+          border-radius:50%;
+          background-color:#ddd;
+        }
+        .slick-dots li.slick-active button{
+          background: #d1321d;
+        }
+      }
+      .usertable{
+        position:absolute;
+        left:50%;
+        top:0;
+        margin-top:30px;
+        height:290px;
+        width:320px;
+        background-color:rgba(0,0,0,0.6);
+        margin-left:280px;
+        border-radius:3px;
+        padding:20px;
+        .title_wrap{
+          color: #ffffff;
+          border-bottom: dashed 1px #ffffff;
+          height: 42px;
+          line-height: 42px;
+          font-size: 16px;
+        }
+        .input_wrap{
+          height:42px;
+          width:100%;
+          background:url(http://localhost:3000/images/shouye/icon_yuyue.png) no-repeat;
+          background-color:#fff;
+          padding-left:42px;
+          margin-top:20px;
+          border-radius:3px;
+          .input_txt{
+            color:#555;
+            height:42px;
+            width:100%;
+            font-size:16px;
+            border-radius:0 3px 3px 0;
+          }
+        }
+        .input_name{
+          background-position:0 -40px;
+        }
+        .button_content button{
+          display:block;
+          width:100%;
+          height:42px;
+          margin-top:20px;
+          border-radius:3px;    background: #d1321d;
+          font-size:16px;
+          color:#fff;
+          &:hover{
+            background: #f94d4d;
+          }
+        }
+      }
+      .total{
+        margin-top:350px;
+        border-bottom: 2px solid #f7f7f7;
+        height: 83px;
+        background: #fff;
+        .total_detail{
+          position:relative;
+          dl{
+            position:absolute;
+            top:0;
+            height:80px;
+            line-height:80px;
+            dt{
+              float:left;
+              color: #888;
+              font-size: 14px;
+              line-height:80px;
+              margin-right: 10px;
+            }
+            dd{
+              float:left;
+              line-height:80px;
+              font-size:18px;
+              span{
+                color: #a97433;
+                font-size: 34px;
+              }
+            }
+            &.dl1{
+              left:0;
+            }
+            &.dl2{
+              left:240px;
+            }
+            &.dl3{
+              left:545px;
+            }
+            &.dl4{
+              right:0;
+            }
+          }
+        }
+      }
+    }
+    .jiaoyskh{
+      margin-top:40px;
+      .ant-spin-nested-loading>.ant-spin-container>ul{
+        overflow:hidden;
+        &>li{
+          float:left;
+          width:394px;
+          background:url(http://localhost:3000/images/shouye/tuijian.png) no-repeat top right;
+          background-color:#fff;
+          padding:20px 0;
+          &:nth-child(2){
+            margin:0 9px;
+          }
+          .planlist{
+            width:308px;
+            margin:0 auto;
+            .titl{
+              height:40px;
+              width:100%;
+              padding-left:50px;
+              position:relative;
+              line-height:40px;
+              font-size: 22px;
+              color: #9A9A9A;
+              .ioc_play{
+                display:block;
+                height:40px;
+                width:40px;
+                position:absolute;
+                left:0;
+                top:0;
+              }
+            }
+            .xxka{
+              width:200px;
+              margin:0 auto;
+              height:51px;
+              padding-top:8px;
+              span{
+                display:inline-block;
+                height:35px;
+                width:35px;
+                margin-right:15px;
+                img{
+                  height:35px;
+                  width:35px;
+                }
+              }
+            }
+            .fyqhsx{
+              ul li{
+                float:left;
+                width:154px;
+                a{
+                  display:block;
+                  height:32px;
+                  width:132px;
+                  border:1px solid #FDB053;
+                  font-size:16px;
+                  color: #FDB053;
+                  background: #FFEEDF;
+                  line-height:30px;
+                  border-radius:3px;
+                  text-align:center;
+                  margin:6px 0;
+                }
+                span{
+                  display:block;
+                  width:154px;
+                  text-align:center;
+                  height:32px;
+                  line-height:32px;
+                  font-size: 18px;
+                  color: #9A9A9A;
+                }
+                &.current{
+                  padding-left:22px;
+                }
+              }
+            }
+            .fanydianshu{
+              padding-left:20px;
+              height:40px;
+              overflow:hidden;
+              color:#9a9a9a;
+              span{
+                float:left;
+                font-size:16px;
+                width:100px;
+                text-align:right;
+                i{
+                  color: rgb(248, 76, 76);
+                  font-size:36px;
+                }
+                &.fyq{
+                  margin-left:5px;
+                  text-align:center;
+                }
+                &.fyh{
+                  margin-left:10px;
+                }
+              }
+              .xuxianpos{
+                float:left;
+                height:40px;
+                width:62px;
+                background: url(http://localhost:3000/images/shouye/xiegang1.png) no-repeat center top;
+              }
+            }
+            .chakanxq{
+              height:40px;
+              width:240px;
+              margin:20px auto 0;
+              a{
+                display:block;
+                width:100%;
+                border: 1px solid #F94D4D;
+                height:40px;
+                line-height:38px;
+                text-align:center;
+                color: #F94D4D;
+                font-size: 18px;
+                border-radius: 3px;
+                text-decoration: none;
+                &:hover{
+                  color:#fff;
+                  background-color:#F94D4D;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .xianhuopt{
+      overflow:hidden;
+      margin-top:20px;
+      .pint_left{
+        width:817px;
+        .pint_title{
+          height:50px;
+          line-height:50px;
+          .titlexianh{
+            font-size:26px;
+            color:#333;
+          }
+          .xuzezhao{
+            font-size:15px;
+            color:#999;
+          }
+          .genduo{
+            float:right;
+            height:50px;
+            font-size:14px;
+            color:#999;
+          }
+        }
+        .ptcunt_zf{
+          .ant-spin-nested-loading>.ant-spin-container>ul{
+            &>li{
+              height:220px;
+              margin-bottom:20px;
+              width:100%;
+              border:1px solid #e1e1e1;
+              background:url(http://localhost:3000/images/shouye/huanghuacaidoulianle.png);
+              .lonsepiwen{
+                width:206px;
+                height:230px;
+                float:left;
+                img{
+                  display:block;
+                  margin-top:-7px;
+                }
+              }
+              .jiaoyisemsg{
+                float:right;
+                width:609px;
+                .topsenm{
+                  width:614px;
+                  margin-left:-5px;
+                  padding:10px 0;
+                  position:relative;
+                  background-color:#fff;
+                  border-bottom:1px solid #e1e1e1;
+                  .auto{
+                    width:580px;
+                    margin:0 auto;
+                    overflow:hidden;
+                    .titl_minchen{
+                      float:left;
+                      padding-left:50px;
+                      position:relative;
+                      height:46px;
+                      .ioc{
+                        position:absolute;
+                        left:0;
+                        top:0;
+                        height:40px;
+                        width:40px;
+                      }
+                      .til_name{
+                        font-size:20px;
+                        display:block;
+                        margin-top:-4px;
+                      }
+                      .jianjie{
+                        font-size: 16px;
+                        margin-top:-4px;
+                        overflow: hidden;
+                        color: #999;
+                        width: 240px;
+                      }
+                    }
+                    .jtby_ioc{
+                      float:right;
+                      span{
+                        float:left;
+                        height:46px;
+                        width:43px;
+                        margin-left:15px;
+                        background:url(http://localhost:3000/images/shouye/jtby_ioc_bg.png) no-repeat;
+                        line-height:44px;
+                        text-align:center;
+                        color:#fff;
+                      }
+                    }
+                  }
+                }
+                .fybl_xianqin{
+                  height:151px;
+                  .fybl_auto{
+                    width:560px;
+                    margin:0 auto;
+                    height:151px;
+                    .bljj{
+                      height:151px;
+                      padding-top:10px;
+                      width:227px;
+                      border-right:1px solid #e1e1e1;
+                      dl dt{
+                        height:40px;
+                        line-height:40px;
+                        color: rgb(70, 70, 70);
+                        font-size:16px;
+                        .numcharshf{
+                          font-size:20px;
+                          color:#EC5367;
+                        }
+                      }
+                      dl dd{
+                        height:25px;
+                        line-height:25px;
+                        font-size:16px;
+                        color: rgb(70, 70, 70);
+                        .huiben{
+                          color:#EC5367;
+                        }
+                      }
+                    }
+                    .kaihurenshu{
+                      float:left;
+                      width:169px;
+                      padding-top:10px;
+                      height:151px;
+                      border-right:1px solid #e1e1e1;
+                      .kaihur_auto{
+                        width:110px;
+                        margin:0 auto;
+                        overflow:hidden;
+                        .jdti{
+                          float:left;
+                          height:111px;
+                          width:21px;
+                          margin-top:20px;
+                          background:url(http://localhost:3000/images/shouye/water.png) no-repeat -243px 0;
+                        }
+                        .kaihunum{
+                          float:right;
+                          margin-top:55px;
+                          i{
+                            font-size:16px;
+                            display:block;
+                            &.num{
+                              color:#FCA665;
+                              padding-left:30px;
+                              padding-bottom:10px;
+                            }
+                            &.dbkhz{
+                              height:30px;
+                              line-height:30px;
+                              width:80px;
+                              font-size:14px;
+                              padding-left:20px;
+                              background:url(http://localhost:3000/images/shouye/kaihurenshuwezi.png) no-repeat;
+                            }
+                          }
+                        }
+                      }
+                    }
+                    .chakanxinq{
+                      float:left;
+                      padding:10px 0 0 15px;
+                      dl{
+                        margin-top:20px;
+                        dd{
+                          height:26px;
+                          line-height:26px;
+                          font-size:16px;
+                          i{
+                            font-size: 17px;
+                            color: #EC5367;
+                          }
+                        }
+                      }
+                      .chakanxq{
+                        display:block;
+                        height:35px;
+                        width:128px;
+                        border-radius:4px;
+                        text-align:center;
+                        line-height:35px;
+                        color:#fff;
+                        background-color:#EA544A;
+                        font-size:16px;
+                        margin-top:20px;
+                        &:hover{
+                          background: #fb2b2b;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .pint_right{
+        width:360px;
+        .pint_title{
+          height:50px;
+          line-height:50px;
+          font-size:26px;
+        }
+        .banner_small{
+          width:360px;
+          height:228px;
+          border:1px solid #e1e1e1;
+          .ant-carousel .slick-slide {
+            text-align: center;
+            height:226px;
+            line-height: 160px;
+            background: #364d79;
+            overflow: hidden;
+          }
+          .ant-carousel .slick-slide h3 {
+            color: #fff;
+          }
+        }
+        .gonggao{
+          width:100%;
+          border:1px solid #e1e1e1;
+          background-color:#fff;
+          margin-top:25px;
+          .gonggao_tit{
+            width:345px;
+            margin:0 auto;
+            border-bottom:1px solid #e1e1e1;
+            height:60px;
+            line-height:59px;
+            font-size:24px;
+            color:#333;
+          }
+          .xianyuehhh{
+            .gong_list{
+              width:315px;
+              margin:0 auto;
+              padding:10px 0;
+              li{
+                width:100%;
+                padding-left:15px;
+                height:30px;
+                line-height:30px;
+                font-size:14px;
+                background:url(http://localhost:3000/images/shouye/lvsededioan.png) no-repeat left center;
+              }
+            }
+          }
+        }
+        .hooyonjbang{
+          overflow:hidden;
+          margin-top:26px;
+          background-color:#fff;
+          border:1px solid #e1e1e1;
+          width:100%;
+          .titleico{
+            width:100%;
+            height:55px;
+            border-bottom:1px solid #e1e1e1;
+            background:url(http://localhost:3000/images/shouye/hoopaihangbang.png) no-repeat center center;
+          }
+          .yjbang_list{
+            .yjbang_list_tit{
+              width:100%;
+              tbody tr{
+                td{
+                  height:35px;
+                  background-color:#f6f6f6;
+                  font-size:14px;
+                  padding-left:15px;
+                }
+              }
+            }
+            .topmobile11{
+              width:100%;
+              height:280px;
+              overflow:hidden;
+              position:relative;
+              table{
+                position:absolute;
+                top:0;
+                left:0;
+                width:358px;
+                td{
+                  height:35px;
+                  font-size:14px;
+                  .iocimg{
+                    color:#E4393c;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .license{
+      width:1220px;
+      margin:0 auto;
+      .title{
+        font-size:24px;
+        font-weight:bold;
+        color:#333;
+        padding-bottom:20px;
+      }
+      ul{
+        overflow:hidden;
+        li{
+          float:left;
+          border:3px solid #ccc;
+          margin:0 4.2px 11px 9px;
+          opacity:1;
+          transition:all 0.5s ease;
+          &.opacity{
+            opacity:0.4;
+          }
+        }
+      }
+    }  
+    .butn_news{
+      border:1px solid #e1e1e1;
+      background-color:#fff;
+      overflow:hidden;
+      margin-top:20px;
+      .news_title{
+        height:56px;
+        line-height:55px;
+        border-bottom:1px solid #e1e1e1;
+        font-size:24px;
+        a{
+          float:right;
+          color:#999;
+          font-size:14px;
+        }
+      }
+      .mtbd_news{
+        height:327px;
+        width:408px;
+        border-right:1px solid #e1e1e1;
+        .mtbd_auto{
+          width:365px;
+          overflow:hidden;
+          margin:0 auto;
+          .mtnews_list{
+            margin-top:27px;
+            overflow:hidden;
+            .newsmt_ioc{
+              width:135px;
+              height:93px;
+              overflow:hidden;
+            }
+            .content{
+              width: 205px;
+              font-size: 14px;
+              height: 93px;
+              .cuntwnz{
+                height:78px;
+                width:205px;
+                color:#999;
+                &>a{
+                  display:block;
+                  width:205px;
+                  height:16px;
+                  margin-bottom:5px;
+                  color:#333;
+                }
+                p{
+                  height:63px;
+                  width:100%;
+                  .atst{
+                    color: #1F8CCD;
+                  }
+                }
+              }
+              .datetime{
+                width:100%;
+                text-align:right;
+                color:#999;
+              }
+            }
+          }
+        }
+      }
+      .shbd_news{
+        width:408px;
+        height:327px;
+        border-right:1px solid #e1e1e1;
+        .mtbd_auto{
+          width:365px;
+          overflow:hidden;
+          margin:0 auto;
+        }
+        ul{
+          margin-top:8px;
+        }
+        ul li{
+          height:30px;
+          line-height:30px;
+          width:100%;
+          overflow:hidden;
+          padding-left:15px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          background:url(http://localhost:3000/images/shouye/lvsededioan.png) no-repeat left center;
+          a{
+            color:#666;
+            font-size:14px;
+            &:hover{
+              color: #ff4c4c;
+            }
+          }
+        }
+      }
+      .cjwt{
+        width:379px;
+        border-right:none;
+        .cjwt_auto{
+          width:340px;
+          margin:0 auto;
+        }
+      }
+    }
+    .footlink{
+      border:1px solid #e1e1e1;
+      background-color:#fff;
+      margin-top:20px;
+      .friendlink{
+        padding:0 20px;
+        h3{
+          height:56px;
+          border-bottom:1px solid #e1e1e1;
+          font-size:24px;
+          line-height:55px;
+        }
+        ul{
+          padding:20px 0;
+          overflow:hidden;
+          li{
+            float:left;
+            min-width:100px;
+            margin-right:20px;
+            line-height:24px;
+            height:24px;
+            font-size:16px;
+          }
+        }
+      }
+    }
+}

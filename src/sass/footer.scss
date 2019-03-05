@@ -1,0 +1,179 @@
+#footer{
+    background-color:#333;
+    border-top: 5px solid #d1321d;
+    color: #ccc;
+    padding-top: 30px;
+    padding-bottom:40px;
+    margin-top:20px;
+    .m_index{
+        .ft_con{
+            float:left;
+            height:160px;
+            padding-left:30px;
+            border-left:1px solid #5b5b5b;
+        }
+        .ft_dl01{
+            width:270px;
+            border-left:none;
+            padding-top:40px;
+            text-align:center;
+        }
+        .ft_dl02{
+            width:300px;
+            h3{
+                width:100%;
+                padding-left:30px;
+                height:30px;
+                line-height:30px;
+                color:#ccc;
+                font-size:20px;
+            }
+            p{
+                height:40px;
+                line-height:40px;
+                margin:3px 0;
+                margin-left:30px;
+                padding-left:45px;
+                font-size:20px;
+                color:#ccc;
+                position:relative;
+                &.ft_zx{
+                    font-size:14px;
+                    a{
+                        height:40px;
+                        width:40px;
+                        position:absolute;
+                        left:0;
+                        top:0;
+                        background:url(http://localhost:3000/images/shouye/ft_ico_qq.png) no-repeat;
+                        &:hover{
+                            background-position:-40px;
+                        }
+                    }
+                }
+                &.ft_rx{
+                    background:url(http://localhost:3000/images/shouye/ft_ico_tel.png) no-repeat left center;
+                }
+            }
+        }
+        .ft_dl03{
+            width:250px;
+            padding-top:15px;
+            padding-left:64px;
+        }
+        .ft_dl04{
+            width:306px;
+            padding-top:10px;
+            padding-left:40px;
+            ul li{
+                float:left;
+                width:130px;
+                height:42px;
+                line-height:42px;
+                font-size:16px;
+                a{
+                    color:#999;
+                    &:hover{
+                        color:#ccc;
+                    }
+                }
+            }
+        }
+    }
+    .copyright{
+        text-align:center;
+        padding-top:10px;
+        color:#999;
+        line-height:24px;
+        p{
+            a{
+                color:#999;
+            }
+            a:hover{
+                color:#ccc;
+            }
+        }
+    }
+}
+#floatContact{
+    height:370px;
+    position:fixed;
+    right:0;
+    top:100px;
+    padding-left:30px;
+    z-index:999;
+    .btn{
+        width:30px;
+        height:130px;
+        position:absolute;
+        left:0;
+        top:50%;
+        transform:translateY(-50%);
+        background:url(http://localhost:3000/images/shouye/floatcontact_btn_bg0.png) no-repeat center center;
+        background-color: #2693DB;
+        border-radius:5px 0 0 5px;
+    }
+    .btn2{
+        background:url(http://localhost:3000/images/shouye/floatcontact_btn_bg1.png) no-repeat center center;
+        background-color: #2693DB;
+    }
+    .floatbody{
+        width:200px;
+        padding:20px 10px;
+        background: #44A7EB;;
+        border-radius:5px 0 0 5px;
+        .tit{
+            height:40px;
+            line-height:40px;
+            color:#fff;
+            font-size:16px;
+            i{
+                float:left;
+                margin-right:10px;
+            }
+        }
+        .tel{
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: bold;
+            height: 24px;
+            line-height: 24px;
+            margin-top: 5px;
+            text-align: center;
+        }
+        .teltime{
+            text-align: center;
+            color: #0764A4;
+            height: 24px;
+            line-height: 24px;
+        }
+        .line{
+            width:100%;
+            height:1px;
+            background-color:#2687D5;
+            margin:10px 0;
+        }
+        .floatqq{
+            width:160px;
+            margin:0 auto;
+            li{
+                width:160px;
+                height:34px;
+                margin-top:10px;
+                a{
+                    display:block;
+                    height:34px;
+                    width:160px;
+                    background:url(http://localhost:3000/images/shouye/floatcontact_icon_qq_bg0.png) no-repeat;
+                    padding-left:60px;
+                    line-height:34px;
+                    font-size:14px;
+                    color:#fff;
+                    &:hover{
+                        background:url(http://localhost:3000/images/shouye/floatcontact_icon_qq_bg1.png) no-repeat;
+                    }
+                }
+            }
+        }
+    }
+}

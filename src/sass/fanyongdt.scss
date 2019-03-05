@@ -1,0 +1,76 @@
+#fanyongdt{
+    margin-top:10px;
+    .DT_floor{
+        margin-top:15px;
+        height:327px;
+        width:1196px;
+        background-color:#fff;
+        .comm{
+            li{
+                float:left;
+                width:234px;
+                height:327px;
+                border-left:1px solid #f3f3f3;
+                transition:all 0.4s ease;
+                &:hover{
+                    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+                }
+                .img{
+                    margin-top:20px;
+                    text-align:center;
+                }
+                .tit{
+                    font-size:16px;
+                    margin-top:50px;
+                    text-align:center;
+                }
+                .info{
+                    margin-top:20px;
+                    padding:0 22px;
+                    overflow:hidden;
+                    span{
+                        float:left;
+                        background: url(http://localhost:3000/images/shouye/icon_yong.png) no-repeat;
+                        height: 26px;
+                        line-height: 26px;
+                        padding-left: 32px;
+                        float: left;
+                        color: #FF6613;
+                        font-size: 16px;
+                    }
+                    button{
+                        float:right;
+                        width:52px;
+                        height:30px;
+                        border:1px solid #36C500;
+                        font-size: 14px;
+                        color: #36C500;
+                        background-color:#fff;
+                        border-radius:3px;
+                        transition: all 0.4s ease;
+                        &:hover{
+                            color:#fff;
+                            background-color:#36C500;
+                        }
+                    }
+                }
+            }
+            .first{
+                border-left:none;
+            }
+        }
+    }
+    .DT_floor2{
+        .comm{
+            li{
+                width:468px;
+                .tit{
+                    margin-top:50px;
+                }
+                .info{
+                    padding:0 95px;
+                }
+            }
+        }
+    }
+}

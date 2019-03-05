@@ -1,0 +1,353 @@
+#fanypt{
+    width:100%;
+    overflow:hidden;
+    .fanypt_img{
+        height:224px;
+        position:relative;
+        .w1920{
+            width:1920px;
+            height:224px;
+            position:absolute;
+            top:0;
+            left:50%;
+            transform:translateX(-50%);
+        }
+    }
+    .prc_platform{
+        margin-top:15px;
+        .prc_tit{
+            overflow:hidden;
+            li{
+                float:left;
+                width:192px;
+                height:63px;
+                border:1px solid #d6d6d6;
+                border-radius:6px;
+                margin-right:15px;
+                cursor: pointer;
+                background:url(http://localhost:3000/images/shouye/quanh.png) no-repeat right bottom;
+                &.plat_all{
+                    div{
+                        background:url(http://localhost:3000/images/shouye/quanbug.png) no-repeat left 10px;
+                    }
+                }
+                &.plat_baiyin{
+                    background:url(http://localhost:3000/images/shouye/baiyh.png) no-repeat right bottom;
+                    div{
+                        background:url(http://localhost:3000/images/shouye/baiyinh.png) no-repeat left 10px;
+                    }
+                }
+                &.plat_yuanyou{
+                    background:url(http://localhost:3000/images/shouye/youh.png) no-repeat right bottom;
+                    div{
+                        background:url(http://localhost:3000/images/shouye/yuanyouh.png) no-repeat left 10px;
+                    }
+                }
+                &.plat_tong{
+                    background:url(http://localhost:3000/images/shouye/santonh.png) no-repeat right bottom;
+                    div{
+                        background:url(http://localhost:3000/images/shouye/tonh.png) no-repeat left 10px;
+                    }
+                }
+                &.plat_dazong{
+                    background:url(http://localhost:3000/images/shouye/type_04_21.png) no-repeat right bottom;
+                    div{
+                        background:url(http://localhost:3000/images/shouye/type_04_11.png) no-repeat left 10px;
+                    }
+                }
+                div{
+                    height:61px;
+                    width:150px;
+                    margin:0 auto;
+                    padding-left:50px;
+                    line-height:61px;
+                    font-size:18px;
+                    color:#333;
+                }
+            }
+        }
+    }
+    .plat_alllist{
+        .ant-spin-nested-loading>.ant-spin-container>ul{
+            &>li{
+                margin-top:15px;
+                width:100%;
+                border:1px solid #e1e1e1;
+                background-color:#fff;
+                padding:33px 0;
+                .ls_cunt{
+                    width:1147px;
+                    height:178px;
+                    margin:0 auto;
+                    .gonsi_ioc_log{
+                        height:180px;
+                        width:180px;
+                        border:1px solid #e1e1e1;
+                        position:relative;
+                        .fdhoohlw{
+                            position:absolute;
+                            height:76px;
+                            width:76px;
+                            background:url(http://localhost:3000/images/shouye/huolvwang.png) no-repeat;
+                            top:0;
+                            left:0;
+                        }
+                    }
+                    .gonsi_msg_tbe{
+                        width:770px;
+                        margin-left:10px;
+                        .gon_con{
+                            width:100%;
+                            padding-left:5px;
+                            height:34px;
+                            font-size:16px;
+                            line-height:34px;
+                            p{
+                                width:80px;
+                            }
+                            .gon_del{
+                                width:160px;
+                                overflow:hidden;
+                                white-space: nowrap;
+                                text-overflow: ellipsis;
+                                height:34px;
+                                i{
+                                    display:inline-block;
+                                    height:13px;
+                                    width:13px;
+                                    margin-right:5px;
+                                    background:url(http://localhost:3000/images/shouye/wujiaox.png) no-repeat;
+                                }
+                            }
+                        }
+                        .gon_brj{
+                            height:46px;
+                            p{
+                                height:46px;
+                                line-height:46px;
+                            }
+                            div{
+                                height:46px;
+
+                            }
+                        }
+                        .gonsimesg{
+                            width:260px;
+                            h3{
+                                width:250px;
+                                height:45px;
+                                padding-top:4px;
+                                padding-left:5px;
+                                font-size:20px;
+                            }
+                            .gon_brj{
+                                div ul li{
+                                    float:left;
+                                    height:35px;
+                                    width:35px;
+                                    margin-top:5px;
+                                    margin-right:10px;
+                                    position:relative;
+                                    div{
+                                        position:absolute;
+                                        border:5px solid #ccc;
+                                        height:130px;
+                                        width:130px;
+                                        z-index:999;
+                                        display:none;
+                                    }
+                                    &.gon_dn{
+                                        background:url(http://localhost:3000/images/shouye/diannaoxiazao1.png) no-repeat center center;
+                                    }
+                                    &.gon_az{
+                                        background:url(http://localhost:3000/images/shouye/fanzhuoxiazai1.png) no-repeat center center;
+                                        div{
+                                            top:-130px;
+                                            left:32px;
+                                        }
+                                        &:hover div{
+                                            display:block;
+                                        }
+                                    }
+                                    &.gon_ios{
+                                        background:url(http://localhost:3000/images/shouye/ipohne.png) no-repeat center center;
+                                        div{
+                                            top:-130px;
+                                            left:32px;
+                                        }
+                                        &:hover div{
+                                            display:block;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .kuaisukaihu{
+                            width:185px;
+                            .kuaisubtn{
+                                display:block;
+                                height:35px;
+                                width:110px;
+                                margin:0 0 10px 5px;
+                                border-radius:3px;
+                                background-color:#EB544A;
+                                color:#fff;
+                                font-size:20px;
+                                &:hover{
+                                    background: #E9433A;
+                                }
+                            }
+                            .gon_con p{
+                                width:85px;
+                                padding-left:5px;
+                            }
+                            .gon_con .gon_del{
+                                width:80px;
+                            }
+                            .gon_con .chengb{
+                                color:#eb544a;
+                            }
+                            .gon_btime{
+                                height:46px;
+                                line-height:46px;
+                            }
+                        }
+                        .tiyanmoni{
+                            width:325px;
+                            .btnbox{
+                                padding-left:5px;
+                                height:45px;
+                                a{
+                                    display:inline-block;
+                                    margin-right:20px;
+                                    height:29px;
+                                    width:100px;
+                                    text-align:center;
+                                    border-radius:3px;
+                                    line-height:29px;
+                                    color:#fff;
+                                    font-size:14px;
+                                    &.tiyanfu{
+                                        background-color:#BFBFBF;
+                                        &:hover{
+                                            background: #B0B0B0;
+                                        }
+                                    }
+                                    &.ptmesage{
+                                        background-color:#00A1E9;
+                                        &:hover{
+                                            background:#0094D2;
+                                        }
+                                    }
+                                }
+                            }
+                            .gon_con{
+                                p{
+                                    width:102px;
+                                    padding-left:5px;
+                                }
+                                .gonfj{
+                                    font-size: 18px;
+                                    font-weight: bold;
+                                    color: #eb544a;
+                                }
+                            }
+                            .gon_yh{
+                                height:46px;
+                                font-size:16px;
+                                p{
+                                    width:102px;
+                                    padding-left:10px;
+                                    line-height:46px;
+                                }
+                                div{
+                                    b{
+                                        display:inline-block;
+                                        width:28px;
+                                        height:28px;
+                                        margin:9px 10px 0 0;
+                                        background:url(http://localhost:3000/images/shouye/mybankioc.png) no-repeat 0 center;
+                                        &.jh{
+                                            background-position:-48px center;
+                                        }
+                                        &.nh{
+                                            background-position:-96px center;
+                                        }
+                                        &.zg{
+                                            background-position:-144px center;
+                                        }
+                                        &.zs{
+                                            background-position:-192px center;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .gonsi_suolvtu{
+                        width:185px;
+                        height:173px;
+                        margin-top:5px;
+                        position:relative;
+                        .suolvtu_img{
+                            height:125px;
+                            width:185px;
+                            border:1px solid #ccc;
+                        }
+                        a{
+                            height:40px;
+                            font-size:14px;
+                            line-height:40px;
+                            display:block;
+                            text-align:center;
+                        }
+                        .suolvtu_bimg{
+                            position:absolute;
+                            top:-150px;
+                            left:-650px;
+                            border: 5px solid #666;
+                            z-index:999;
+                            border-radius:5px;
+                        }
+                    }
+                }
+            }
+        }   
+    }
+    .pages{
+        height:55px;
+        padding-top:5px;
+        text-align:center;
+        line-height:55px;
+        b{
+            cursor: pointer;
+            padding: 5px 9px;
+            border: 1px solid #dedede;
+            margin: 0px 3px;
+            color: #777777;
+            font-size: 12px;
+            font-weight: normal;
+            background-color: #eee;
+            &:hover{
+                border-color:#D1321D;
+            }
+        }
+        span{
+            cursor: pointer;
+            padding: 5px 9px;
+            border: 1px solid #dedede;
+            margin: 0px 3px;
+            color: #777777;
+            font-size: 12px;
+            font-weight: normal;
+            background-color: #eee;
+            &:hover{
+                border-color:#D1321D;
+            }
+            &.active{
+                border-color:#D1321D;
+                font-weight: bold;
+            }
+        }
+    }
+}

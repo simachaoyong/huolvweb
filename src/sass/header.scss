@@ -1,0 +1,187 @@
+#container{
+    background-color:#F0F0F0;
+}
+#header{
+    background-color:#fff;
+    .header_t{
+        height:43px;
+        border-bottom:1px solid #e1e1e1;
+        padding-top:10px;
+        .lft_phonnum .lft_con{
+            font-size:14px;
+            color:#333;
+        }
+        .lft_phonnum{
+            .lft_icon li{
+                float:left;
+                position:relative;
+                i{
+                    display:block;
+                    height:30px;
+                    width:30px;
+                    margin-left:16px;
+                    background: url(http://localhost:3000/images/shouye/tb01.png) no-repeat;
+                }
+                .tx_fxqq{
+                    background-position:0 -70px;
+                }
+                .qqkf{
+                    display:none;
+                    position:absolute;
+                    background-color:#fff;
+                    height:50px;
+                    width:200px;
+                    border: 1px solid #ccc;
+                    box-shadow: 0 1px 3px #888;
+                    line-height:50px;
+                    text-align:center;
+                    font-size:14px;
+                    top:30px;
+                    left:-72px;
+                }
+                span{
+                    background: rgba(0, 0, 0, 0) url(http://localhost:3000/images/shouye/tb07.png) no-repeat scroll -10px -317px;
+                    display: block;
+                    height: 6px;
+                    left: 96px;
+                    position: absolute;
+                    top: -5px;
+                    width: 11px;
+                }
+                .codema{
+                    display:none;
+                    position:absolute;
+                    border: 1px solid #ccc;
+                    box-shadow: 0 2px 3px #666;
+                    top:30px;
+                    left:-53px;
+                    z-index:300;
+                    span{
+                        left: 78px;
+                    }
+                }
+                .tx_ioc{
+                    background-position:0 -101px;
+                }
+                .wx_ioc{
+                    background-position:0 -30px;
+                }
+            }
+        }
+        .rt_phonnum{
+            ul{
+                li{
+                    float:left;
+                    padding:2px 15px;
+                    border-right:1px solid #dedede;
+                    font-size:14px;
+                    a{
+                        color:#333;
+                        &:hover{
+                            color: #F00;
+                        }
+                        &.current{
+                            color:#F00;
+                        }
+                    }
+                }
+            }
+            form{
+                margin-left:15px;
+                input{
+                    height:24px;
+                    width:137px;
+                    border:1px solid #dedede;
+                    border-radius:12px 0 0 12px;
+                    padding-left:10px;
+                    float:left;
+                    background-color:#fff;
+                    font-size: 12px;
+                    color: #525252;
+                }
+                button{
+                    float:left;
+                    height:24px;
+                    width:30px;
+                    border:1px solid #dedede;
+                    border-radius:0 12px 12px 0;
+                    background: url(http://localhost:3000/images/shouye/fandajsimida.png) #dedede no-repeat 4px center;
+                    background-size: 16px 16px;
+    cursor: pointer;
+                }
+            }
+        }
+    }
+    .header_b{
+        height:100px;
+        width:1200px;
+        margin:0 auto;
+        .header_logo{
+            float:left;
+            margin-top:20px;
+        }
+        .header_b_b{
+            &>li{
+                float:left;
+                position: relative;
+                line-height:100px;
+                height:100px;
+                margin-left:35px;
+                .icon_hot{
+                    position:absolute;
+                    height:19px;
+                    width:27px;
+                    background:url(http://localhost:3000/images/shouye/hot.gif) no-repeat;
+                    top:16px;
+                    right:-8px;
+                }
+                .yincangyu{
+                    position:absolute;
+                    width:120px;
+                    border:1px solid #dedede;
+                    padding-bottom:10px;
+                    background-color:#fff;
+                    top:71px;
+                    left:-21px;
+                    z-index:200;
+                    .b1{
+                        display: block;
+                        top: -11px;
+                        left: 50%;
+                        margin-left: -5px;
+                        border: 5px solid #eb544a;
+                        border-color: transparent transparent #eb544a transparent;
+                        width: 0px;
+                        height: 0px;
+                        position: absolute;
+                    }
+                    .nav_child li{
+                        text-align:center;
+                        height:44px;
+                        line-height:44px;
+                        width: 100px;
+                        border-bottom:1px solid #dedede;
+                        margin-left:10px;
+                        transition:all 0.2s ease;
+                        &:hover{
+                            margin-left:0;
+                            width:118px;
+                            border-bottom-color:#f00;
+                        }
+                        &:hover a{
+                            color:#f00;
+                        }
+                    }
+                }
+                a{
+                    font-size:18px;
+                    color:#333;
+                    &:hover{
+                        color:#f00;
+                    }
+                }
+
+            }
+        }
+    }
+}
